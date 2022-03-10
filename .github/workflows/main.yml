@@ -39,4 +39,9 @@ jobs:
       run: |
           cd src/package
           python -m unittest
+    - name: Build phinx documentation
+      run: |
+          cd doc
+          make html
+    
         
